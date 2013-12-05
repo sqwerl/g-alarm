@@ -21,6 +21,27 @@
 		46766C47173A4FD4003B655B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46766C28173A4FD4003B655B /* Foundation.framework */; };
 		46766C4F173A4FD4003B655B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 46766C4D173A4FD4003B655B /* InfoPlist.strings */; };
 		46766C52173A4FD4003B655B /* G_AlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C51173A4FD4003B655B /* G_AlarmTests.m */; };
+		46766C62173A50D7003B655B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46766C61173A50D7003B655B /* Storyboard.storyboard */; };
+		46766C63173A50D7003B655B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46766C61173A50D7003B655B /* Storyboard.storyboard */; };
+		46766C66173A7453003B655B /* GAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C65173A7453003B655B /* GAHomeViewController.m */; };
+		46766C67173A7453003B655B /* GAHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C65173A7453003B655B /* GAHomeViewController.m */; };
+		46766C6A173A7DDA003B655B /* GAAlarmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C69173A7DDA003B655B /* GAAlarmListViewController.m */; };
+		46766C6B173A7DDA003B655B /* GAAlarmListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C69173A7DDA003B655B /* GAAlarmListViewController.m */; };
+		46766C6E173A7DED003B655B /* GAAddEditAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C6D173A7DED003B655B /* GAAddEditAlarmViewController.m */; };
+		46766C6F173A7DED003B655B /* GAAddEditAlarmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C6D173A7DED003B655B /* GAAddEditAlarmViewController.m */; };
+		46766C72173A7E08003B655B /* GAAlarmLabelEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C71173A7E08003B655B /* GAAlarmLabelEditViewController.m */; };
+		46766C73173A7E08003B655B /* GAAlarmLabelEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C71173A7E08003B655B /* GAAlarmLabelEditViewController.m */; };
+		46766C77173A825B003B655B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46766C76173A825A003B655B /* AVFoundation.framework */; };
+		46766C7C173A849D003B655B /* digital-7.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46766C7B173A849D003B655B /* digital-7.ttf */; };
+		46766C80173A88A9003B655B /* ds-digii.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 46766C7D173A8813003B655B /* ds-digii.ttf */; };
+		46766C83173A8FCE003B655B /* GAAlarmObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C82173A8FCE003B655B /* GAAlarmObject.m */; };
+		46766C84173A8FCE003B655B /* GAAlarmObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C82173A8FCE003B655B /* GAAlarmObject.m */; };
+		46766C86173AA5EB003B655B /* cominghome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46766C85173AA5EB003B655B /* cominghome.mp3 */; };
+		46766C87173AA5EB003B655B /* cominghome.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 46766C85173AA5EB003B655B /* cominghome.mp3 */; };
+		46766C8A173AB101003B655B /* GAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C89173AB101003B655B /* GAMapViewController.m */; };
+		46766C8B173AB101003B655B /* GAMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46766C89173AB101003B655B /* GAMapViewController.m */; };
+		46766C8D173AB2D8003B655B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46766C8C173AB2D8003B655B /* CoreLocation.framework */; };
+		46766C8F173AB503003B655B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46766C8E173AB503003B655B /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +74,25 @@
 		46766C4E173A4FD4003B655B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		46766C50173A4FD4003B655B /* G_AlarmTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = G_AlarmTests.h; sourceTree = "<group>"; };
 		46766C51173A4FD4003B655B /* G_AlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = G_AlarmTests.m; sourceTree = "<group>"; };
+		46766C61173A50D7003B655B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		46766C64173A7453003B655B /* GAHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAHomeViewController.h; sourceTree = "<group>"; };
+		46766C65173A7453003B655B /* GAHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAHomeViewController.m; sourceTree = "<group>"; };
+		46766C68173A7DDA003B655B /* GAAlarmListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAAlarmListViewController.h; sourceTree = "<group>"; };
+		46766C69173A7DDA003B655B /* GAAlarmListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAAlarmListViewController.m; sourceTree = "<group>"; };
+		46766C6C173A7DED003B655B /* GAAddEditAlarmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAAddEditAlarmViewController.h; sourceTree = "<group>"; };
+		46766C6D173A7DED003B655B /* GAAddEditAlarmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAAddEditAlarmViewController.m; sourceTree = "<group>"; };
+		46766C70173A7E08003B655B /* GAAlarmLabelEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAAlarmLabelEditViewController.h; sourceTree = "<group>"; };
+		46766C71173A7E08003B655B /* GAAlarmLabelEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAAlarmLabelEditViewController.m; sourceTree = "<group>"; };
+		46766C76173A825A003B655B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		46766C7B173A849D003B655B /* digital-7.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "digital-7.ttf"; sourceTree = "<group>"; };
+		46766C7D173A8813003B655B /* ds-digii.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ds-digii.ttf"; sourceTree = "<group>"; };
+		46766C81173A8FCE003B655B /* GAAlarmObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAAlarmObject.h; sourceTree = "<group>"; };
+		46766C82173A8FCE003B655B /* GAAlarmObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAAlarmObject.m; sourceTree = "<group>"; };
+		46766C85173AA5EB003B655B /* cominghome.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cominghome.mp3; sourceTree = "<group>"; };
+		46766C88173AB101003B655B /* GAMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAMapViewController.h; sourceTree = "<group>"; };
+		46766C89173AB101003B655B /* GAMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAMapViewController.m; sourceTree = "<group>"; };
+		46766C8C173AB2D8003B655B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		46766C8E173AB503003B655B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +100,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46766C8F173AB503003B655B /* MapKit.framework in Frameworks */,
+				46766C8D173AB2D8003B655B /* CoreLocation.framework in Frameworks */,
+				46766C77173A825B003B655B /* AVFoundation.framework in Frameworks */,
 				46766C27173A4FD4003B655B /* UIKit.framework in Frameworks */,
 				46766C29173A4FD4003B655B /* Foundation.framework in Frameworks */,
 				46766C2B173A4FD4003B655B /* CoreGraphics.framework in Frameworks */,
@@ -83,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				46766C2C173A4FD4003B655B /* G Alarm */,
+				46766C5E173A5007003B655B /* Resources */,
 				46766C4A173A4FD4003B655B /* G AlarmTests */,
 				46766C25173A4FD3003B655B /* Frameworks */,
 				46766C24173A4FD3003B655B /* Products */,
@@ -101,6 +145,9 @@
 		46766C25173A4FD3003B655B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				46766C8E173AB503003B655B /* MapKit.framework */,
+				46766C8C173AB2D8003B655B /* CoreLocation.framework */,
+				46766C76173A825A003B655B /* AVFoundation.framework */,
 				46766C26173A4FD3003B655B /* UIKit.framework */,
 				46766C28173A4FD4003B655B /* Foundation.framework */,
 				46766C2A173A4FD4003B655B /* CoreGraphics.framework */,
@@ -114,6 +161,9 @@
 			children = (
 				46766C35173A4FD4003B655B /* GAAppDelegate.h */,
 				46766C36173A4FD4003B655B /* GAAppDelegate.m */,
+				46766C5C173A4FF1003B655B /* Models */,
+				46766C5B173A4FE8003B655B /* Controllers */,
+				46766C5D173A4FF8003B655B /* Views */,
 				46766C2D173A4FD4003B655B /* Supporting Files */,
 			);
 			path = "G Alarm";
@@ -122,6 +172,9 @@
 		46766C2D173A4FD4003B655B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				46766C85173AA5EB003B655B /* cominghome.mp3 */,
+				46766C7D173A8813003B655B /* ds-digii.ttf */,
+				46766C7B173A849D003B655B /* digital-7.ttf */,
 				46766C2E173A4FD4003B655B /* G Alarm-Info.plist */,
 				46766C2F173A4FD4003B655B /* InfoPlist.strings */,
 				46766C32173A4FD4003B655B /* main.m */,
@@ -150,6 +203,63 @@
 				46766C4D173A4FD4003B655B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46766C5B173A4FE8003B655B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				46766C64173A7453003B655B /* GAHomeViewController.h */,
+				46766C65173A7453003B655B /* GAHomeViewController.m */,
+				46766C68173A7DDA003B655B /* GAAlarmListViewController.h */,
+				46766C69173A7DDA003B655B /* GAAlarmListViewController.m */,
+				46766C6C173A7DED003B655B /* GAAddEditAlarmViewController.h */,
+				46766C6D173A7DED003B655B /* GAAddEditAlarmViewController.m */,
+				46766C70173A7E08003B655B /* GAAlarmLabelEditViewController.h */,
+				46766C71173A7E08003B655B /* GAAlarmLabelEditViewController.m */,
+				46766C88173AB101003B655B /* GAMapViewController.h */,
+				46766C89173AB101003B655B /* GAMapViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		46766C5C173A4FF1003B655B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				46766C81173A8FCE003B655B /* GAAlarmObject.h */,
+				46766C82173A8FCE003B655B /* GAAlarmObject.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		46766C5D173A4FF8003B655B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				46766C61173A50D7003B655B /* Storyboard.storyboard */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		46766C5E173A5007003B655B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				46766C60173A5029003B655B /* Sounds */,
+				46766C5F173A501A003B655B /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		46766C5F173A501A003B655B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		46766C60173A5029003B655B /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +338,10 @@
 				46766C39173A4FD4003B655B /* Default.png in Resources */,
 				46766C3B173A4FD4003B655B /* Default@2x.png in Resources */,
 				46766C3D173A4FD4003B655B /* Default-568h@2x.png in Resources */,
+				46766C62173A50D7003B655B /* Storyboard.storyboard in Resources */,
+				46766C7C173A849D003B655B /* digital-7.ttf in Resources */,
+				46766C80173A88A9003B655B /* ds-digii.ttf in Resources */,
+				46766C86173AA5EB003B655B /* cominghome.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +350,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				46766C4F173A4FD4003B655B /* InfoPlist.strings in Resources */,
+				46766C63173A50D7003B655B /* Storyboard.storyboard in Resources */,
+				46766C87173AA5EB003B655B /* cominghome.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +380,12 @@
 			files = (
 				46766C33173A4FD4003B655B /* main.m in Sources */,
 				46766C37173A4FD4003B655B /* GAAppDelegate.m in Sources */,
+				46766C66173A7453003B655B /* GAHomeViewController.m in Sources */,
+				46766C6A173A7DDA003B655B /* GAAlarmListViewController.m in Sources */,
+				46766C6E173A7DED003B655B /* GAAddEditAlarmViewController.m in Sources */,
+				46766C72173A7E08003B655B /* GAAlarmLabelEditViewController.m in Sources */,
+				46766C83173A8FCE003B655B /* GAAlarmObject.m in Sources */,
+				46766C8A173AB101003B655B /* GAMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +394,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				46766C52173A4FD4003B655B /* G_AlarmTests.m in Sources */,
+				46766C67173A7453003B655B /* GAHomeViewController.m in Sources */,
+				46766C6B173A7DDA003B655B /* GAAlarmListViewController.m in Sources */,
+				46766C6F173A7DED003B655B /* GAAddEditAlarmViewController.m in Sources */,
+				46766C73173A7E08003B655B /* GAAlarmLabelEditViewController.m in Sources */,
+				46766C84173A8FCE003B655B /* GAAlarmObject.m in Sources */,
+				46766C8B173AB101003B655B /* GAMapViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

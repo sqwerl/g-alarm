@@ -7,16 +7,48 @@
 //
 
 #import "GAAppDelegate.h"
+#import "GAHomeViewController.h"
 
 @implementation GAAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
+    //Prevent screen from locking
+    [UIApplication sharedApplication].idleTimerDisabled = YES;
+    UILocalNotification *localNotification = [launchOptions objectForKey:UIApplicationLaunchOptionsLocalNotificationKey];
+    
+    if (localNotification)
+    {
+        self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+        UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+        
+        self.window.rootViewController = [storyboard instantiateInitialViewController];
+        
+        ((GAHomeViewController *) self.window.rootViewController).alarmGoingOff = YES;
+        [self.window makeKeyAndVisible];
+        
+    }
+    
+
     return YES;
+}
+
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification
+{
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"cominghome" ofType:@"mp3"];
+    
+    NSURL *file = [[NSURL alloc] initFileURLWithPath:path];
+    
+    self.player =[[AVAudioPlayer alloc] initWithContentsOfURL:file error:nil];
+    [self.player prepareToPlay];
+    [self.player play];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Storyboard" bundle:nil];
+    self.window.rootViewController = [storyboard instantiateInitialViewController];
+    ((GAHomeViewController *) self.window.rootViewController).alarmGoingOff = YES;
+
+    [self.window makeKeyAndVisible];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

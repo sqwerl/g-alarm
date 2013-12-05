@@ -24,6 +24,19 @@
 	<string>1.0</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIMainStoryboardFile</key>
+	<string>Storyboard</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>digital-7.ttf</string>
+		<string>ds-digii.ttf</string>
+	</array>
+	<key>LSApplicationCategoryType</key>
+	<array>
+		<string></string>
+	</array>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>
