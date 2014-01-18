@@ -37,8 +37,21 @@
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSData *alarmListData = [defaults objectForKey:@"AlarmListData"];
     self.listOfAlarms = [NSKeyedUnarchiver unarchiveObjectWithData:alarmListData];
+    if ([self respondsToSelector:@selector(setNeedsStatusBarAppearanceUpdate)]) {
+        // iOS 7
+        [self prefersStatusBarHidden];
+        [self performSelector:@selector(setNeedsStatusBarAppearanceUpdate)];
+    } else {
+        // iOS 6
+        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
+    }
     
-    
+}
+
+// Add this Method
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 

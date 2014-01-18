@@ -25,6 +25,21 @@ NSArray *_regionArray;
     //NSArray *geofences = [self buildGeofenceData];
     //[self initializeRegionMonitoring:geofences];
     //[self initializeLocationUpdates];
+    
+    if ([self respondsToSelector:@selector(setNeedsStatusBarAppearanceUpdate)]) {
+        // iOS 7
+        [self prefersStatusBarHidden];
+        [self performSelector:@selector(setNeedsStatusBarAppearanceUpdate)];
+    } else {
+        // iOS 6
+        [[UIApplication sharedApplication] setStatusBarHidden:YES withAnimation:UIStatusBarAnimationSlide];
+    }
+}
+
+// Add this Method
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 - (void)mapView:(MKMapView *)mapView didUpdateUserLocation:(MKUserLocation *)userLocation {
